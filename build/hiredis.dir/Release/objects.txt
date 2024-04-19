@@ -1,0 +1,7 @@
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/Release/alloc.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/Release/async.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/Release/hiredis.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/Release/net.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/Release/read.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/Release/sds.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/Release/sockcompat.obj

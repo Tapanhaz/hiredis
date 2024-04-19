@@ -1,0 +1,7 @@
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/MinSizeRel/alloc.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/MinSizeRel/async.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/MinSizeRel/hiredis.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/MinSizeRel/net.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/MinSizeRel/read.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/MinSizeRel/sds.obj
+E:/Builds/hiredis-1.2.0/build/hiredis.dir/MinSizeRel/sockcompat.obj

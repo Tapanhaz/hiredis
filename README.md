@@ -23,17 +23,6 @@ Redis version >= 1.2.0.
 The library comes with multiple APIs. There is the
 *synchronous API*, the *asynchronous API* and the *reply parsing API*.
 
-## Upgrading to > 1.2.0 (**PRERELEASE**)
-
-* After v1.2.0 we modified how we invoke `poll(2)` to wait for connections to complete, such that we will now retry
-  the call if it is interrupted by a signal until:
-
-  a) The connection succeeds or fails.
-  b) The overall connection timeout is reached.
-
-  In previous versions, an interrupted `poll(2)` call would cause the connection to fail
-  with `c->err` set to `REDIS_ERR_IO` and `c->errstr` set to `poll(2): Interrupted system call`.
-
 ## Upgrading to `1.1.0`
 
 Almost all users will simply need to recompile their applications against the newer version of hiredis.
@@ -158,7 +147,7 @@ The values are not stored in the `redisContext`, so they are not automatically a
 These functions return `REDIS_OK` on success.
 On failure, `REDIS_ERR` is returned and the underlying connection is closed.
 
-To configure these for an asynchronous context (see *Asynchronous API* below), use `ac->c` to get the redisContext out of an asyncRedisContext.
+To configure these for an asyncronous context (see *Asynchronous API* below), use `ac->c` to get the redisContext out of an asyncRedisContext.
 
 ```C
 int redisEnableKeepAlive(redisContext *c);
@@ -302,7 +291,7 @@ void redisFree(redisContext *c);
 This function immediately closes the socket and then frees the allocations done in
 creating the context.
 
-### Sending commands (continued)
+### Sending commands (cont'd)
 
 Together with `redisCommand`, the function `redisCommandArgv` can be used to issue commands.
 It has the following prototype:

@@ -1,0 +1,10 @@
+^E:\BUILDS\HIREDIS-1.2.0\BUILD\CMAKEFILES\A1C30482D1CBD31C3E60E7EC63BB8CEA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Builds/hiredis-1.2.0 -BE:/Builds/hiredis-1.2.0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Builds/hiredis-1.2.0/build/hiredis.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,11 @@
+EXPORTS 
+	redisContextSSLFuncs 	 DATA
+	__local_stdio_printf_options
+	c99_snprintf
+	redisCreateSSLContext
+	redisCreateSSLContextWithOptions
+	redisFreeSSLContext
+	redisInitOpenSSL
+	redisInitiateSSL
+	redisInitiateSSLWithContext
+	redisSSLContextGetError

@@ -1,0 +1,1 @@
+E:/Builds/hiredis-1.2.0/build/hiredis_ssl.dir/MinSizeRel/ssl.obj

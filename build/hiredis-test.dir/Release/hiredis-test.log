@@ -1,0 +1,25 @@
+﻿  Building Custom Rule E:/Builds/hiredis-1.2.0/CMakeLists.txt
+  test.c
+E:\Builds\hiredis-1.2.0\test.c(199,34): warning C4244: 'return': conversion from 'redisFD' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\test.c(358,54): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\test.c(364,54): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\test.c(373,61): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\test.c(380,61): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\test.c(437,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(449,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(489,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(508,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(517,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(526,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(536,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(551,5): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(670,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(719,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(748,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(849,29): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+E:\Builds\hiredis-1.2.0\test.c(865,21): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(1125,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(1131,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(1182,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\test.c(1311,1): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  hiredis-test.vcxproj -> E:\Builds\hiredis-1.2.0\build\Release\hiredis-test.exe

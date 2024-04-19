@@ -364,6 +364,7 @@ static int redisSSLConnect(redisContext *c, SSL *ssl) {
         return REDIS_ERR;
     }
 
+    c->funcs = &redisContextSSLFuncs;
     rssl->ssl = ssl;
 
     SSL_set_mode(rssl->ssl, SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER);
@@ -371,19 +372,15 @@ static int redisSSLConnect(redisContext *c, SSL *ssl) {
     SSL_set_connect_state(rssl->ssl);
 
     ERR_clear_error();
-
     int rv = SSL_connect(rssl->ssl);
     if (rv == 1) {
-        c->funcs = &redisContextSSLFuncs;
         c->privctx = rssl;
         return REDIS_OK;
     }
 
     rv = SSL_get_error(rssl->ssl, rv);
     if (((c->flags & REDIS_BLOCK) == 0) &&
-        (rv == SSL_ERROR_WANT_READ || rv == SSL_ERROR_WANT_WRITE))
-    {
-        c->funcs = &redisContextSSLFuncs;
+        (rv == SSL_ERROR_WANT_READ || rv == SSL_ERROR_WANT_WRITE)) {
         c->privctx = rssl;
         return REDIS_OK;
     }

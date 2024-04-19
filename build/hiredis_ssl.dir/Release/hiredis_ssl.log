@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/Builds/hiredis-1.2.0/CMakeLists.txt
+  ssl.c
+E:\Builds\hiredis-1.2.0\ssl.c(291,49): warning C4047: 'function': 'HCRYPTPROV_LEGACY' differs in levels of indirection from 'void *'
+E:\Builds\hiredis-1.2.0\ssl.c(291,45): warning C4024: 'CertOpenSystemStoreA': different types for formal and actual parameter 1
+E:\Builds\hiredis-1.2.0\ssl.c(371,32): warning C4244: 'function': conversion from 'redisFD' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\ssl.c(488,48): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\ssl.c(531,47): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  Auto build dll exports
+     Creating library E:/Builds/hiredis-1.2.0/build/Release/hiredis_ssl.lib and object E:/Builds/hiredis-1.2.0/build/Release/hiredis_ssl.exp
+  hiredis_ssl.vcxproj -> E:\Builds\hiredis-1.2.0\build\Release\hiredis_ssl.dll

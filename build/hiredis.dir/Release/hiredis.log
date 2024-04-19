@@ -1,0 +1,57 @@
+﻿  Building Custom Rule E:/Builds/hiredis-1.2.0/CMakeLists.txt
+  alloc.c
+E:\Builds\hiredis-1.2.0\alloc.c(40,17): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+E:\Builds\hiredis-1.2.0\alloc.c(59,21): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  async.c
+E:\Builds\hiredis-1.2.0\async.c(62,54): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\async.c(81,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\async.c(82,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\async.c(505,13): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\async.c(509,20): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\async.c(565,13): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+E:\Builds\hiredis-1.2.0\async.c(566,13): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+E:\Builds\hiredis-1.2.0\async.c(567,13): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+E:\Builds\hiredis-1.2.0\async.c(865,20): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+E:\Builds\hiredis-1.2.0\async.c(890,16): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+E:\Builds\hiredis-1.2.0\async.c(943,16): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  hiredis.c
+E:\Builds\hiredis-1.2.0\hiredis.c(345,54): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\hiredis.c(501,42): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\hiredis.c(520,34): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\hiredis.c(981,48): warning C4244: '=': conversion from 'ssize_t' to 'int', possible loss of data
+  net.c
+E:\Builds\hiredis-1.2.0\net.c(308,14): warning C4267: 'function': conversion from 'size_t' to 'socklen_t', possible loss of data
+E:\Builds\hiredis-1.2.0\net.c(373,9): warning C4267: 'function': conversion from 'size_t' to 'socklen_t', possible loss of data
+E:\Builds\hiredis-1.2.0\net.c(377,9): warning C4267: 'function': conversion from 'size_t' to 'socklen_t', possible loss of data
+E:\Builds\hiredis-1.2.0\net.c(520,21): warning C4267: 'function': conversion from 'size_t' to 'socklen_t', possible loss of data
+E:\Builds\hiredis-1.2.0\net.c(543,13): warning C4267: 'function': conversion from 'size_t' to 'socklen_t', possible loss of data
+E:\Builds\hiredis-1.2.0\net.c(669,4): warning C4102: 'oom': unreferenced label
+  read.c
+E:\Builds\hiredis-1.2.0\read.c(216,37): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\Builds\hiredis-1.2.0\read.c(232,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\read.c(302,29): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\read.c(304,36): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\read.c(306,37): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\read.c(307,37): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+E:\Builds\hiredis-1.2.0\read.c(409,38): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+E:\Builds\hiredis-1.2.0\read.c(432,29): warning C4244: '+=': conversion from '__int64' to 'unsigned long', possible loss of data
+  sds.c
+E:\Builds\hiredis-1.2.0\sds.c(102,52): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(107,30): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(108,32): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(114,30): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(115,32): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(121,30): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(122,32): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(462,13): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(491,13): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(590,18): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(618,23): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(635,27): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(653,27): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+E:\Builds\hiredis-1.2.0\sds.c(792,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  sockcompat.c
+  Generating Code...
+  Auto build dll exports
+     Creating library E:/Builds/hiredis-1.2.0/build/Release/hiredis.lib and object E:/Builds/hiredis-1.2.0/build/Release/hiredis.exp
+  hiredis.vcxproj -> E:\Builds\hiredis-1.2.0\build\Release\hiredis.dll
